@@ -1,0 +1,21 @@
+
+# Création de la nouvelle branche
+git branch une_nouvelle_branche
+
+# On se place sur la nouvelle branche
+git checkout une_nouvelle__branche
+
+# Une fois fait on pousse cette nouvelle branche sur notre dépôt distant
+git push -u origin une_nouvelle_branche
+
+# Notre branche faite, on peut créer notre nouveau fichier texte
+nano fichier_3.txt
+
+# On le remplit avec du texte au choix, puis on l'ajoute au prochain commit
+git add fichier_3.txt
+
+# On commit puis on push
+git commit -m "ajout de fichier_3.txt sur une nouvelle branche"
+
+# Toujours sur la branche
+git push
